@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 
-const TOKEN = "NDY4NDg1NTAzMjM5MzIzNjQ4.Dlydrw.x2IXwYSdVVOeDvJsEh8wKOEFRcc";
 const PREFIX = "?";
 const StartupPrefix = "| Fortnite Selling City | "
 
@@ -68,6 +67,8 @@ bot.on("message", function(message) {
         kickChannel.send(kickembed);
         break;
 
+        const ban = "NDY4NDg1NTAzMjM5MzIzNjQ4.Dlyf3A.Xl1ewXpdxYJ5XJix-Lxv_Mx-O9c";
+            
         case "ban":
         let bUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
         if(!bUser) return message.channel.send("Wrong usage, please try ?ban (@user) (reason)");
@@ -148,4 +149,4 @@ bot.on("message", function(message) {
     }
 });
 
-bot.login(TOKEN);
+bot.login(ban);
