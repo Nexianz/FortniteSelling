@@ -67,7 +67,7 @@ bot.on("message", function(message) {
         kickChannel.send(kickembed);
         break;
 
-        const ban = "NDY4NDg1NTAzMjM5MzIzNjQ4.Dlyf3A.Xl1ewXpdxYJ5XJix-Lxv_Mx-O9c";
+        const ban = "NDY4NDg1NTAzMjM5MzIzNjQ4.Dlyguw.TP5YM5LnFr55BNco4C6K9M4F6-0";
             
         case "ban":
         let bUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
