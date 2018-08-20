@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 
-const TOKEN = "NDY4NDg1NTAzMjM5MzIzNjQ4.DlHEtA.dMZ9jFZtT7uPDeKvz7iOd8tOW2E";
+const TOKEN = "NDY4NDg1NTAzMjM5MzIzNjQ4.Dlydrw.x2IXwYSdVVOeDvJsEh8wKOEFRcc";
 const PREFIX = "?";
 const StartupPrefix = "| Fortnite Selling City | "
 
